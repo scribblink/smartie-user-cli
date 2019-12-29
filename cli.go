@@ -6,7 +6,7 @@ import (
 
 	pb "github.com/scribblink/smartie-user-service/proto/user"
 	microclient "github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/cmd"
+	"github.com/micro/go-micro/config/cmd"
 	"golang.org/x/net/context"
 	"github.com/micro/cli"
 	"github.com/micro/go-micro"
