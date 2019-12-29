@@ -12,11 +12,10 @@ require (
 	github.com/micro/go-micro v1.18.0
 	github.com/miekg/dns v1.1.26 // indirect
 	github.com/nats-io/jwt v0.3.2 // indirect
-	github.com/scribblink/smartie-user-service v0.0.0-20191229035151-bec19ec30112
+	github.com/scribblink/smartie-user-service v0.0.0-20191229110149-c1c04fc41d4e
 	go.uber.org/atomic v1.5.1 // indirect
 	go.uber.org/multierr v1.4.0 // indirect
 	go.uber.org/zap v1.13.0 // indirect
-	golang.org/x/crypto v0.0.0-20191227163750-53104e6ec876 // indirect
 	golang.org/x/lint v0.0.0-20191125180803-fdd1cda4f05f // indirect
 	golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553
 	golang.org/x/sys v0.0.0-20191228213918-04cbcbbfeed8 // indirect

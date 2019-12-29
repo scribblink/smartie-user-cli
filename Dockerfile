@@ -9,7 +9,7 @@ WORKDIR /app
 ENV GO111MODULE=on
 COPY . .
 
-RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o smartie-user-cli
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo .
 
 FROM alpine:latest
 

@@ -1,5 +1,5 @@
 build:
-	docker build -t smartie-user-cli .
+	docker build -t user-cli .
 
 run:
-	docker run -e MICRO_REGISTRY=mdns smartie-user-cli
+	docker run -e MICRO_REGISTRY=mdns user-cli
